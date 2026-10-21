@@ -16,4 +16,4 @@ def test_health():
 
 def test_add():
     r = client.get("/add/2/3")
-    assert r.get_json()["result"] == 6
+    assert r.get_json()["result"] == 5
